@@ -1,0 +1,322 @@
+
+.Logo {
+  display: flex; /* Enables flexbox for the container */
+  justify-content: center; /* Centers items horizontally */
+  align-items: flex-start; /* Aligns items to the top */
+
+  margin-top: 30px; /* Removes default margin */
+}
+
+.kitchen-logo {
+  max-width: 350px; /* Makes sure the logo is responsive */
+  height: auto; /* Preserves the aspect ratio */
+  
+  border-radius: 90px;
+}
+
+.Logo h2{
+  margin:35px;
+  margin-top: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 250;
+  
+}
+
+.Logo h2 a{
+  text-decoration: none;
+  color: hsl(34, 37%, 22%);
+  font-size: 20px;
+}
+
+.Logo h2 a:hover {
+  cursor: pointer;
+  color: #646cff; 
+  transition: color 0.3s; 
+}
+
+.overview {
+  text-align: center;
+  margin: 0;
+  margin-top: 10px; /* Add space above the text */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  color: hsl(34, 37%, 22%);
+  font-size: 18px; /* Make the text readable */
+  background-color: #ffffff; /* Optional background to make it stand out */
+  padding: 10px; /* Add spacing around the text */
+  
+}
+
+hr {
+  border: none; /* Removes the default 3D effect */
+  height: 2px; /* Thickness of the line */
+  background-color: #ccc; /* Line color */
+  margin-top: 20px; /* Space above the line */
+  margin-bottom: 10px; /* Space below the line */
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.card{
+  display: inline-block;
+  margin-left: 400px;
+}
+
+.card h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 38px;
+  padding: 0;
+  cursor: pointer
+}
+  
+
+.card .cakepicture{
+  border: 1px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  height: 120px;
+  max-width: 120px;
+}
+
+.card .cakepicture:hover {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.cardBir{
+  display: inline-block;
+  margin-left: 30px;
+}
+.cardBir h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 19px;
+  padding: 0;
+  cursor: pointer;
+}
+.cardBir .biryanipicture{
+  border: 1px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  height: 120px;
+  max-width: 120px;
+
+}
+
+.cardBir .biryanipicture:hover {
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.cardCurry{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.cardCurry h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 36px;
+  padding: 0;
+  cursor: pointer;
+
+}
+
+.cardCurry .curryPicture{
+  border: 1px solid white;
+  border-radius: 100px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  height: 120px;
+  max-width: 120px;
+
+}
+
+.cardCurry .curryPicture:hover{
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.cardDessert{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.cardDessert h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 9px;
+  padding: 0;
+  cursor: pointer;
+
+}
+
+.cardDessert .dessertPicture{
+  border: 1px solid white;
+  border-radius: 150px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  height: 120px;
+  max-width: 120px;
+}
+
+.cardDessert .dessertPicture:hover{
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+.cardDosa{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.cardDosa h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  margin-left: 39px;
+  padding: 0;
+  cursor: pointer;
+
+}
+
+.cardDosa .dosaPicture{
+  border: 1px solid white;
+  border-radius: 150px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  height: 120px;
+  max-width: 120px;
+
+}
+
+.cardDosa .dosaPicture:hover{
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.Picks h2{
+  display: block;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight:300;
+  padding-left: 135px;
+}
+
+.Picks1{
+  display: inline-block;
+  padding-left: 135px;
+
+}
+
+.Picks1 .fishNirvana{
+  width: 250px;
+  height: auto;
+  border: 1px solid rgb(251, 255, 251);
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.182);
+  transition: box-shadow 0.3s ease;
+}
+
+.Picks1 .fishNirvana:hover{
+  box-shadow: 6px 6px 15px rgba(0,0,0,0.3);
+}
+
+.Picks1 h2{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
+
+}
+
+.Picks2{
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.Picks2 .honeyCake{
+ 
+  width: 250px;
+  height: 437px;
+  border: 1px solid rgb(251, 255, 251);
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.182);
+  transition: box-shadow 0.3s ease;
+
+}
+
+.Picks2 .honeyCake:hover{
+  box-shadow: 6px 6px 15px rgba(0,0,0,0.3);
+}
+
+.Picks2 h2{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+
+}
+
+.Picks3{
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.Picks3 .chickenLolipop{
+  width: 250px;
+  height: 437px;
+  border: 1px solid rgb(251, 255, 251);
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.182);
+  transition: box-shadow 0.3s ease;
+
+}
+
+.Picks3 .chickenLolipop:hover{
+  box-shadow: 6px 6px 15px rgba(0,0,0,0.3);
+}
+
+.Picks3 h2{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+.Picks4{
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.Picks4 .chickenBiryani{
+  width: 250px;
+  height: 436px;
+  border: 1px solid rgb(251, 255, 251);
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.182);
+  transition: box-shadow 0.3s ease;
+
+}
+
+.Picks4 .chickenBiryani:hover{
+  box-shadow: 6px 6px 15px rgba(0,0,0,0.3);
+}
+
+.Picks4 h2{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
